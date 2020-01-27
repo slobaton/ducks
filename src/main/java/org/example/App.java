@@ -26,5 +26,12 @@ public class App {
         rubberDuck.swim();
         rubberDuck.display();
         rubberDuck.fly();
+
+        System.out.println("**** Wooden Decoy Duck ****");
+        Duck woodenDecoyDuck = new WoodenDecoyDuck();
+        woodenDecoyDuck.quack();
+        woodenDecoyDuck.swim();
+        woodenDecoyDuck.display();
+        woodenDecoyDuck.fly();
     }
 }

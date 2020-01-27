@@ -1,6 +1,6 @@
 package org.example;
 
-public class RubberDuck extends Duck{
+public class WoodenDecoyDuck extends Duck {
     @Override
     public void quack() {
         //Do nothing
@@ -8,6 +8,6 @@ public class RubberDuck extends Duck{
 
     @Override
     public void display() {
-        System.out.println("Display Rubber Duck");
+        System.out.println("Wooden decoy duck display");
     }
 }
