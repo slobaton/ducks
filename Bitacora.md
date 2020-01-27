@@ -10,5 +10,10 @@
  - Mantenimiento difícil por cada nuevo pato se que implemente un comportamiento y si por algún motivo este comportamiento de alguna manera cambia, ese cambio se hará en todas las subclases.
  - El sistema no tiene la facilidad de adaptació al cambio.
 
-
+**Separando partes que varian del sistema**
+ - Encapsulando las partes que varian de las que no, permite que nuestro sistema sea más flexibe a cambios.
+ - Al separar los comportamientos en interfaces y que cada clase que implemente ese comportamiento lo hará de manera unica y separada.
+ - Las clases que hereden de Duck no necesitan conocer los detalles de la implementación de sus propios comportamientos.
+ - Pero todavia la asignación de comportamientos no es tan dinámica.
+ 
   
