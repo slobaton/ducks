@@ -16,4 +16,7 @@
  - Las clases que hereden de Duck no necesitan conocer los detalles de la implementación de sus propios comportamientos.
  - Pero todavia la asignación de comportamientos no es tan dinámica.
  
+**Composición**
+ - Usar la composición nos dió más flexibilidad a la hora de implementar un nuevo tipo de Pato con un comportamiento distinto y cambiar el mencionado comportamiento en tiempo de ejecución
+ 
   

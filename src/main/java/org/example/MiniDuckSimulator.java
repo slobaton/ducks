@@ -13,7 +13,13 @@ public class MiniDuckSimulator {
         mallard.performFly();
         mallard.performQuack();
 
-        /**System.out.println("**** REDHEAD DUCK ****");
+        System.out.println("**** MODEL DUCK ****");
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
+
+        System.out.println("**** REDHEAD DUCK ****");
         Duck redhead = new RedheadDuck();
         redhead.swim();
         redhead.display();
@@ -32,6 +38,6 @@ public class MiniDuckSimulator {
         decoy.swim();
         decoy.display();
         decoy.performFly();
-        decoy.performQuack();*/
+        decoy.performQuack();
     }
 }

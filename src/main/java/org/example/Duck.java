@@ -2,20 +2,28 @@ package org.example;
 
 public abstract class Duck {
 
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    protected FlyBehavior flyBehavior;
+    protected QuackBehavior quackBehavior;
 
     public abstract void display();
 
     public void performQuack() {
-        flyBehavior.fly();
+        quackBehavior.quack();
     }
 
     public void performFly() {
-        quackBehavior.quack();
+        flyBehavior.fly();
     }
 
     public void swim() {
         System.out.println("All ducks float, even decoys!");
+    }
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
     }
 }
